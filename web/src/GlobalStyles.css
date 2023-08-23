@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select:none;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root{
+    --grey2: #333333aa;
+    --grey1: #44444470;
+    --black: #000000;
+}

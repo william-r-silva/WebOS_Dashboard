@@ -1,0 +1,29 @@
+.weatherBorders{
+    border: solid 1px #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.weatherDay{
+    border: solid 1px #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.weatherDay h2,
+.weatherDay h3,
+.weatherDay p{
+    margin: 0;
+}
+
+.weatherImage{
+    width: 50%;
+}

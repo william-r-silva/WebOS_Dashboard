@@ -1,0 +1,78 @@
+.dashboardScreen{
+    height: 100vh; 
+}
+.dashboardScreenHeader{
+    text-align: center;
+
+    color: var(--grey2);
+}
+
+.dashboardArrowBorders{
+    height: 90%;
+    top:5%;
+    position: fixed;
+
+    border-radius: 5px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dashboardArrowBorders:hover{
+    background-color: var(--grey1);
+}
+
+.dashboardArrowBordersLeft{
+    left: 5px;
+}
+.dashboardArrowBordersRight{
+    right: 5px;
+}
+
+.dashboardArrows{
+    height: 60px;
+    width: 15px;
+}
+
+/* Custom Area */
+
+.dashboardCustomArea{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    height: 100%;
+}
+
+.dashboardColumn25{
+    width: calc(25% - 20px);
+}
+
+.dashboardColumn50{
+    width: calc(50% - 20px);
+}
+
+.dashboardColumn75{
+    width: calc(50% - 20px);
+}
+
+.dashboardColumn100{
+    width: calc(50% - 20px);
+}
+
+.dashboardRow25{
+    height: calc(25% - 20px);
+}
+
+.dashboardRow50{
+    height: calc(50% - 20px);
+}
+
+.dashboardRow75{
+    height: calc(50% - 20px);
+}
+
+.dashboardRow100{
+    height: calc(50% - 20px);
+}

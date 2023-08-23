@@ -1,0 +1,24 @@
+.calendarBorders {
+    border: solid 1px #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calendarWeek {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 5px;
+}
+
+.calendarDays {
+    border: solid 1px #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.calendarCurrentDay {
+    border-color: #FF0000;
+}

@@ -1,0 +1,11 @@
+.listBorders{
+    border: solid 1px var(--black);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.listHeader{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
